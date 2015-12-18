@@ -1,3 +1,5 @@
+require 'tsort'
+
 class Executor
   include TSort
 
