@@ -6,7 +6,7 @@ RSpec.describe(AdventOfCode::Day13::Part2) do
     let(:challenge_input) { load_fixture('day_13.txt') }
 
     it('returns the correct answer for the challenge input') do
-      expect(subject.run(challenge_input)).to eql(0)
+      expect(subject.run(challenge_input)).to eql(725)
     end
   end
 end
